@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B009A9191FB40D110099D8F3 /* ItemStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B009A9181FB40D110099D8F3 /* ItemStore.swift */; };
 		B0860C911FB2ABBF00F556F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0860C901FB2ABBF00F556F4 /* AppDelegate.swift */; };
 		B0860C961FB2ABBF00F556F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0860C941FB2ABBF00F556F4 /* Main.storyboard */; };
 		B0860C981FB2ABBF00F556F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0860C971FB2ABBF00F556F4 /* Assets.xcassets */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B009A9181FB40D110099D8F3 /* ItemStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemStore.swift; sourceTree = "<group>"; };
 		B0860C8D1FB2ABBF00F556F4 /* Homepwner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Homepwner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0860C901FB2ABBF00F556F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B0860C951FB2ABBF00F556F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -140,6 +142,7 @@
 			isa = PBXGroup;
 			children = (
 				B0860CC01FB2AEB200F556F4 /* Item.swift */,
+				B009A9181FB40D110099D8F3 /* ItemStore.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -280,6 +283,7 @@
 			files = (
 				B0860CBF1FB2ADDF00F556F4 /* ItemsViewController.swift in Sources */,
 				B0860CC11FB2AEB200F556F4 /* Item.swift in Sources */,
+				B009A9191FB40D110099D8F3 /* ItemStore.swift in Sources */,
 				B0860C911FB2ABBF00F556F4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
