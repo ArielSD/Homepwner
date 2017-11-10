@@ -35,7 +35,7 @@ class Item: NSObject {
 			let randomAdjective = adjectives[Int(idx)]
 			
 			idx = arc4random_uniform(UInt32(nouns.count))
-			let randomNoun = adjectives[Int(idx)]
+			let randomNoun = nouns[Int(idx)]
 			
 			let randomName = "\(randomAdjective) \(randomNoun)"
 			let randomValue = Int(arc4random_uniform(100))
