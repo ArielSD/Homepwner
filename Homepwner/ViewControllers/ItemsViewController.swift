@@ -73,11 +73,24 @@ class ItemsViewController: UITableViewController {
 		// If the table view is asking to commit a delete command...
 		if editingStyle == .delete {
 			let item = itemStore.allItems[indexPath.row]
-			// Remove the item from the store
-			itemStore.removeItem(item)
 			
-			// Also remove that row from the table view with an animation
-			tableView.deleteRows(at: [indexPath], with: .automatic)
+			let title = "Delete \(item.name)?"
+			let message = "Are you sure you want to delete this item?"
+			let alertController = UIAlertController(title: title, message: message, preferredStyle: .actionSheet)
+			
+			let cancelAction = UIAlertAction(title: "Cancel", style: .cancel, handler: nil)
+			let deleteAction = UIAlertAction(title: "Delete", style: .destructive, handler: { (action) -> Void in
+				// Remove the item from the store
+				self.itemStore.removeItem(item)
+				
+				// Also remove that row from the table view with an animation
+				self.tableView.deleteRows(at: [indexPath], with: .automatic)
+			})
+			alertController.addAction(cancelAction)
+			alertController.addAction(deleteAction)
+			
+			// Present the alert controller
+			present(alertController, animated: true, completion: nil)
 		}
 	}
 	
