@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		B009A9191FB40D110099D8F3 /* ItemStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B009A9181FB40D110099D8F3 /* ItemStore.swift */; };
 		B064D1732001590000B05362 /* BorderedTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B064D1722001590000B05362 /* BorderedTextField.swift */; };
+		B064D17720015F8500B05362 /* ChangeDateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B064D17620015F8500B05362 /* ChangeDateViewController.swift */; };
 		B0860C911FB2ABBF00F556F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0860C901FB2ABBF00F556F4 /* AppDelegate.swift */; };
 		B0860C961FB2ABBF00F556F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0860C941FB2ABBF00F556F4 /* Main.storyboard */; };
 		B0860C981FB2ABBF00F556F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0860C971FB2ABBF00F556F4 /* Assets.xcassets */; };
@@ -41,6 +42,7 @@
 /* Begin PBXFileReference section */
 		B009A9181FB40D110099D8F3 /* ItemStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemStore.swift; sourceTree = "<group>"; };
 		B064D1722001590000B05362 /* BorderedTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderedTextField.swift; sourceTree = "<group>"; };
+		B064D17620015F8500B05362 /* ChangeDateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeDateViewController.swift; sourceTree = "<group>"; };
 		B0860C8D1FB2ABBF00F556F4 /* Homepwner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Homepwner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0860C901FB2ABBF00F556F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B0860C951FB2ABBF00F556F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -159,6 +161,7 @@
 			children = (
 				B0860CBE1FB2ADDF00F556F4 /* ItemsViewController.swift */,
 				B0B4735F1FDF63320085108C /* DetailViewController.swift */,
+				B064D17620015F8500B05362 /* ChangeDateViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -310,6 +313,7 @@
 				B0860CC11FB2AEB200F556F4 /* Item.swift in Sources */,
 				B009A9191FB40D110099D8F3 /* ItemStore.swift in Sources */,
 				B0B473601FDF63320085108C /* DetailViewController.swift in Sources */,
+				B064D17720015F8500B05362 /* ChangeDateViewController.swift in Sources */,
 				B0860C911FB2ABBF00F556F4 /* AppDelegate.swift in Sources */,
 				B064D1732001590000B05362 /* BorderedTextField.swift in Sources */,
 				B0C6BB861FC6626800D33F50 /* ItemCell.swift in Sources */,

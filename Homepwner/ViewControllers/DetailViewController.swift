@@ -71,4 +71,16 @@ class DetailViewController: UIViewController, UITextFieldDelegate {
 		textField.resignFirstResponder()
 		return true
 	}
+	
+	// Segue
+	override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+		// If the triggered segue is the "showItem" segue
+		switch segue.identifier {
+		case "changeDate"?:
+			let changeDateViewController = segue.destination as! ChangeDateViewController
+			changeDateViewController.item = item
+		default:
+			preconditionFailure("Unexpected segue identifier")
+		}
+	}
 }
