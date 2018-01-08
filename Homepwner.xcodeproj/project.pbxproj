@@ -20,6 +20,7 @@
 		B0860CC11FB2AEB200F556F4 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0860CC01FB2AEB200F556F4 /* Item.swift */; };
 		B0B473601FDF63320085108C /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B4735F1FDF63320085108C /* DetailViewController.swift */; };
 		B0C6BB861FC6626800D33F50 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C6BB851FC6626800D33F50 /* ItemCell.swift */; };
+		B0DD85A42003E768001B966C /* ImageStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0DD85A32003E768001B966C /* ImageStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		B0860CC01FB2AEB200F556F4 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		B0B4735F1FDF63320085108C /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		B0C6BB851FC6626800D33F50 /* ItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
+		B0DD85A32003E768001B966C /* ImageStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,6 +173,7 @@
 			children = (
 				B0860CC01FB2AEB200F556F4 /* Item.swift */,
 				B009A9181FB40D110099D8F3 /* ItemStore.swift */,
+				B0DD85A32003E768001B966C /* ImageStore.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -314,6 +317,7 @@
 				B009A9191FB40D110099D8F3 /* ItemStore.swift in Sources */,
 				B0B473601FDF63320085108C /* DetailViewController.swift in Sources */,
 				B064D17720015F8500B05362 /* ChangeDateViewController.swift in Sources */,
+				B0DD85A42003E768001B966C /* ImageStore.swift in Sources */,
 				B0860C911FB2ABBF00F556F4 /* AppDelegate.swift in Sources */,
 				B064D1732001590000B05362 /* BorderedTextField.swift in Sources */,
 				B0C6BB861FC6626800D33F50 /* ItemCell.swift in Sources */,

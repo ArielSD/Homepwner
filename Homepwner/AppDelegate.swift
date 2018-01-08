@@ -20,10 +20,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 		// Create an ItemStore
 		let itemStore = ItemStore()
 		
-		// Access the ItemsViewController and set its item store
+		// Create an ImageStore
+		let imageStore = ImageStore()
+		
+		// Access the ItemsViewController and set its ItemStore and ImageStore
 		let navigationController = window!.rootViewController as! UINavigationController
 		let itemsController = navigationController.topViewController as! ItemsViewController
 		itemsController.itemStore = itemStore
+		itemsController.imageStore = imageStore
 		
 		return true
 	}
@@ -49,7 +53,5 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 	func applicationWillTerminate(_ application: UIApplication) {
 		// Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 	}
-
-
 }
 
