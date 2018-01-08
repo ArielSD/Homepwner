@@ -20,6 +20,11 @@ class DetailViewController: UIViewController, UITextFieldDelegate, UINavigationC
 		view.endEditing(true)
 	}
 	
+	@IBAction func clearImageButtonTapped(_ sender: UIButton) {
+		imageView.image = nil
+		imageStore.deleteImage(forKey: item.itemKey)
+	}
+	
 	@IBAction func takePicture(_ sender: UIBarButtonItem) {
 		let imagePicker = UIImagePickerController()
 		

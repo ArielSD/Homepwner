@@ -166,8 +166,15 @@
                                         </connections>
                                     </button>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" verticalHuggingPriority="248" verticalCompressionResistancePriority="749" translatesAutoresizingMaskIntoConstraints="NO" id="ZBd-7a-aDA">
-                                        <rect key="frame" x="0.0" y="180.5" width="375" height="362.5"/>
+                                        <rect key="frame" x="0.0" y="180.5" width="375" height="324.5"/>
                                     </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Jv-fk-rht">
+                                        <rect key="frame" x="0.0" y="513" width="375" height="30"/>
+                                        <state key="normal" title="Clear Image"/>
+                                        <connections>
+                                            <action selector="clearImageButtonTapped:" destination="XZI-9c-EzR" eventType="touchUpInside" id="ydc-H2-feu"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="mx7-Gb-hcA" firstAttribute="leading" secondItem="lgp-hW-1fy" secondAttribute="leading" id="6p3-w3-dHC"/>
